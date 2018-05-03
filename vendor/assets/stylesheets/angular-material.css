@@ -5954,7 +5954,7 @@ md-tooltip {
   .hide-print:not(.show-print):not(.show) {
     display: none !important; } }
 
-@media print and (max-width: 599px) {
+@media print /*and (max-width: 599px)*/ {
   .hide-print-xs:not(.show-xs):not(.show), .hide-print:not(.show-xs):not(.show) {
     display: none !important; }
   .flex-order-xs--20 {
