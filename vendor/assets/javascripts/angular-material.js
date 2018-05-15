@@ -35621,7 +35621,7 @@ function MdTabItem () {
       if (!ctrl) return;
       ctrl.attachRipple(scope, element);
 
-      $scope.$watch('tab.scope.hide', function (value) {
+      scope.$watch('tab.scope.hide', function (value) {
         if (value) 
           element.css('display', 'none');
         else
