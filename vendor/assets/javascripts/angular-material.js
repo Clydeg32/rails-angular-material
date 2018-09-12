@@ -14966,7 +14966,7 @@ function MdNavItem($mdAria, $$rAF, $mdUtil, $window) {
 
       if (navigationAttribute) {
         buttonTemplate = '' +
-          '<md-button class="_md-nav-button md-accent" ' +
+          '<md-button class="_md-nav-button md-primary" ' +
             'ng-class="ctrl.getNgClassMap()" ' +
             'ng-blur="ctrl.setFocused(false)" ' +
             'ng-disabled="ctrl.disabled" ' +
